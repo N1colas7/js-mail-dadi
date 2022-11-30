@@ -11,8 +11,8 @@ bottone.addEventListener('click', function()
         }
     }
     if (found) {
-        console.log("Puoi partecipare"); 
+        document.getElementById('verifica').innerText = "Puoi partecipare"
     } else {
-        console.log("Non puoi partecipare");
+        document.getElementById('verifica').innerText = "Non puoi partecipare"
     }
 })
